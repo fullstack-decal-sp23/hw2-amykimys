@@ -20,6 +20,20 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label {
+  color: lightcoral;
+  font-weight: bold;
+  font-size: 20px;
+  transition: font-size 0.2s;
+
+}
+
+.label:hover {
+  color: brown;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -32,10 +46,11 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.4%;
 }
 
 .narrow {
@@ -53,6 +68,10 @@ h2 {
   position: relative;
   left: 85px;
   top: 50px;
+}
+
+#white {
+  color: black;
 }
 
 /* Colors */
@@ -75,7 +94,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -91,18 +110,32 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  background-color: red;
+}
+
+#white {
+  background-color: white;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
   /* TODO */
+  height: 16.7%;
+  background-color: #B5002D;
 }
 
 .thailand-white {
   /* TODO */
+  height: 16.6%;
+  background-color: white;
 }
 
 .thailand-blue {
   /* TODO */
+  height: 33.3%;
+  background-color: #2E2A4C
 }
 
 /* END QUESTION 2 */
@@ -130,6 +163,11 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  align-self: center;
+  background-color: white;
+  max-height: 50%;
+  max-width: 33.34%;
+  padding: 1.5%;
 }
 
 .mexico-red {
@@ -150,6 +188,7 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 10px;
 }
 
 .flag2 {
@@ -161,5 +200,7 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
+  height: 240px;
+  width: 440px;
   /* TODO */
 }
